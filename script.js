@@ -1,6 +1,6 @@
 // complete the given function
 
 function palindrome(str){
-    return str === str.split("").reverse().join("");
+    return str.toLowerCase() === str.split("").reverse().join("").toLowerCase();
 }
 module.exports = palindrome
